@@ -42,8 +42,8 @@ end
 task :preview do
   base = Pathname.new('.').expand_path
   options = {
-    "source"        => base.join('test').to_s,
-    "destination"   => base.join('test/_site').to_s,
+    "source"        => base.join('.').to_s,
+    "destination"   => base.join('./_site').to_s,
     "force_polling" => false,
     "serving"       => true,
     "theme"         => "minimal-mistakes-jekyll"
@@ -206,6 +206,6 @@ file "docs/_pages/home.md" => "package.json" do |t|
   File.write(t.name, content)
 end
 
-task :gem do
-  sh 'gem build minimal-mistakes-jekyll.gemspec'
-end
+# task :gem do
+#   sh 'gem build minimal-mistakes-jekyll.gemspec'
+# end
