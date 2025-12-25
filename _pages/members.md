@@ -9,7 +9,7 @@ show_date: true
 header:
     show_overlay_excerpt: false
     show_date: true 
-    overlay_color: "#404040"
+    overlay_color: default
 ---
 
 - 浅原正幸（センター長: 2024/08-）

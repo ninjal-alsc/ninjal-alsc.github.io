@@ -2,10 +2,6 @@
 title: "『Universal Dependencies』 研究会を開催します"
 excerpt: "We will hold a Universal Dependencies research meeting."
 category: Event
-header:
-  show_overlay_excerpt: false
-  show_date: true
-  overlay_color: "#404040"
 ---
 
 『Universal Dependencies』 研究会を 2025/09/20 午後に実施します。   
