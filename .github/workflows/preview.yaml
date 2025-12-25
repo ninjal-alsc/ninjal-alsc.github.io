@@ -33,7 +33,7 @@ jobs:
     - name: Deploy to PR preview folder
       uses: peaceiris/actions-gh-pages@v3
       with:
-        github_token: ${{ secrets.GH_PAT }}   # ✅ Use this instead of personal_token
+        github_token: ${{ secrets.GITHUB_TOKEN }}   # ✅ Use this instead of personal_token
         publish_branch: gh-pages
         publish_dir: ./site
         destination_dir: docs/preview/pr-${{ github.event.pull_request.number }}
