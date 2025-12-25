@@ -35,3 +35,67 @@
 @import "minimal-mistakes/archive";
 @import "minimal-mistakes/sidebar";
 @import "minimal-mistakes/print";
+
+
+
+// Theme overrides
+
+.page__hero{
+    &--overlay {
+        padding: 2em 0em !important;
+        margin-bottom: 20px !important;
+
+        .page__title{
+            font-size: $type-size-3 !important;
+            margin-bottom: 0 !important;
+        }
+
+        .wrapper {
+            align-content: center;
+
+            .page__meta {
+                margin-top: 0.5em !important;   
+                margin-bottom: 0 !important;
+            }
+        }
+    }
+}
+
+.page__content > h2:first-child {
+    margin-top: 0 !important;
+}
+
+.alsc-banner {
+  margin: 50px 0;
+}
+
+
+.page {
+  @include breakpoint($large) {
+    float: inline-end;
+    width: 100%;
+    padding-inline-end: $right-sidebar-width-narrow;
+  }
+
+  @include breakpoint($x-large) {
+    width: 100%;
+    padding-inline-end: $right-sidebar-width;
+  }
+
+}
+
+.archive {
+  margin-top: 1em;
+  margin-bottom: 2em;
+
+  @include breakpoint($large) {
+    float: inline-end;
+    width: 100%;
+    padding-inline-end: $right-sidebar-width-narrow;
+  }
+
+  @include breakpoint($x-large) {
+    width: 100%;
+    padding-inline-end: $right-sidebar-width;
+  }
+}
