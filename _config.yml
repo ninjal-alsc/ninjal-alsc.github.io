@@ -95,7 +95,7 @@ facebook:
   username               :
   app_id                 :
   publisher              :
-og_image                 : "/assets/img/logo/19_alsc-logo-ninjal-ja-en.jpg" # Open Graph/Twitter default site image
+og_image                 : "/assets/img/ogp.jpg" # Open Graph/Twitter default site image
 # For specifying social profiles
 # - https://developers.google.com/structured-data/customize/social-profiles
 social:
