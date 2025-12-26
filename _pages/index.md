@@ -32,7 +32,7 @@ pagination:
 <p>
 本センターは、最新の統計モデリング技術（ベイズ統計・深層学習など）を用い、 実証的な言語研究（音声科学・認知科学・コーパス・言語理論）を推進します。<br>
 <br >
-The center will promote empirical language research (including phonetics, cognitive science, corpora, and linguistic theory) using state-of-the-art statistical modeling techniques such as Bayesian statistics and deep learning.
-
+The center will promote empirical language research (including phonetics, cognitive science, corpora, and linguistic theory) using state-of-the-art statistical modeling techniques such as Bayesian statistics and deep learning.<br>
+<br>
+<a class="btn--primary link-btn" href={{ "/about" | relative_url}}>Read More</a>
 </p>
-<a class="btn" href={{ "/about" | relative_url}}>Read More</a>
