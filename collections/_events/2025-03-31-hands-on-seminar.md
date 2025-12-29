@@ -1,6 +1,7 @@
 ---
 title: "2024年度第2回ハンズオンセミナー"
-date: 2025-03-31
+date: 2025-03-31 # Date of announcement
+event_date: 2025-03-31 # Date of event
 excerpt: "『分類語彙表』に関するハンズオンセミナー"
 ---
 

@@ -1,6 +1,7 @@
 ---
 title: "次世代言語科学研究センター 研究会"
-date: 2025-03-03
+date: 2025-03-03 # Date of announcement
+event_date: 2025-03-03 # Date of event
 excerpt: "Advanced Language Science (E3P) Research Center Research Meeting"
 header:
     teaser: /assets/img/e3p-event-20250303.jpg

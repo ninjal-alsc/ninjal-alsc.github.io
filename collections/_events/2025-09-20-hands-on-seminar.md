@@ -1,6 +1,7 @@
 ---
 title: "2025年度第4回ハンズオンセミナー"
-date: 2025-09-20
+date: 2025-09-20 # Date of announcement
+event_date: 2025-09-20 # Date of event
 excerpt: "『Universal Dependencies』に関するハンズオンセミナー"
 ---
 

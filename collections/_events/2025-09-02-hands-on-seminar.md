@@ -1,6 +1,7 @@
 ---
 title: "2025年度第3回ハンズオンセミナー"
-date: 2025-09-02
+date: 2025-09-02 # Date of announcement
+event_date: 2025-09-02 # Date of event
 excerpt: "第4回 音声生成に関する計測技術ハンズオンセミナー"
 ---
 

@@ -1,6 +1,7 @@
 ---
 title: "2024年度第1回ハンズオンセミナー"
-date: 2024-08-20
+date: 2024-08-20 # Date of announcement
+event_date: 2024-08-20 # Date of event
 excerpt: "第3回 音声生成に関する計測技術ハンズオンセミナー"
 ---
 

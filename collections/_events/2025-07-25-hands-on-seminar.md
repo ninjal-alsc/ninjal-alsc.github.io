@@ -1,6 +1,7 @@
 ---
 title: "2025年度第1回ハンズオンセミナー"
-date: 2025-07-25
+date: 2025-07-25 # Date of announcement
+event_date: 2025-07-25 # Date of event
 excerpt: "眼球運動計測技術ハンズオンセミナー"
 ---
 

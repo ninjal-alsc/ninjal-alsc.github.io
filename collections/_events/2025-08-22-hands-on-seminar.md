@@ -1,6 +1,7 @@
 ---
 title: "2025年度第2回ハンズオンセミナー"
-date: 2025-08-22
+date: 2025-08-22 # Date of announcement
+event_date: 2025-08-22 # Date of event
 excerpt: "言語研究のための脳波トレーニングコース"
 ---
 

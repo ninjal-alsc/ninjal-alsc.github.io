@@ -1,6 +1,7 @@
 ---
 title: "シンポジウム(仮)"
-date: 2025-03-20
+date: 2025-12-20 # Date of announcement
+event_date: 2026-03-20 # Date of event
 excerpt: "作業中"
 ---
 

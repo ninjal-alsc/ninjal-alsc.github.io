@@ -1,6 +1,7 @@
 ---
 title: "『Universal Dependencies』 研究会"
-date: 2025-09-20
+date: 2025-09-20 # Date of announcement
+event_date: 2025-09-20 # Date of event
 excerpt: "Universal Dependencies Research Meeting"
 ---
 

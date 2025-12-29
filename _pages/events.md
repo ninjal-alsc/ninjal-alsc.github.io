@@ -2,7 +2,7 @@
 title: Events
 layout: collection
 permalink: /events/
-sort_by: date
+sort_by: event_date
 sort_order: reverse
 collection: events
 pagination:
