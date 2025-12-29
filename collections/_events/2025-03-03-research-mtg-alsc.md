@@ -2,7 +2,8 @@
 title: "次世代言語科学研究センター 研究会"
 date: 2025-03-03
 excerpt: "Advanced Language Science (E3P) Research Center Research Meeting"
-teaser: /assets/img/e3p-event-20250303.jpg
+header:
+    teaser: /assets/img/e3p-event-20250303.jpg
 ---
 
 <img src="{{ '/assets/img/e3p-event-20250303.jpg' | relative_url }}" alt="次世代言語科学研究センター開所式及び第1回研究会" style="max-width: 100%; height: auto;"/>
