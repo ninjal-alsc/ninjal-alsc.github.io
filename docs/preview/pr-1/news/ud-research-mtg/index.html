@@ -109,7 +109,7 @@
 <div class="masthead">
   <div class="masthead__inner-wrap">
     <div class="masthead__menu">
-      <nav id="site-nav" class="greedy-nav">
+      <nav id="site-nav" class="css-nav">
         
           <a class="site-logo" href="/preview/pr-1/"><img src="/preview/pr-1/assets/img/logo/19_alsc-logo-ninjal-ja-en.jpg" alt=" "></a>
         
@@ -117,6 +117,8 @@
           
           
         </a>
+
+        <!--  -->
         <ul class="visible-links"><li class="masthead__menu-item">
               <a
                 href="/preview/pr-1/about/"
@@ -148,12 +150,31 @@
                 
               >Equipments</a>
             </li></ul>
-        
-        <button class="greedy-nav__toggle hidden" type="button">
-          <span class="visually-hidden">メニュー</span>
+
+        <input type="checkbox" id="nav-toggle" class="nav-toggle">
+        <label for="nav-toggle" class="nav-toggle-label">
+          <span class="visually-hidden">
+            メニュー
+          </span>
           <div class="navicon"></div>
-        </button>
-        <ul class="hidden-links hidden"></ul>
+        </label>
+        <label for="nav-toggle" class="nav-overlay"></label>
+
+        <!-- hamburger 用：常に全メニュー -->
+        <ul class="hidden-links"><li>
+              <a href="/preview/pr-1/about/">About</a>
+            </li><li>
+              <a href="/preview/pr-1/publications/">Publications</a>
+            </li><li>
+              <a href="/preview/pr-1/events/">Events</a>
+            </li><li>
+              <a href="/preview/pr-1/members/">Members</a>
+            </li><li>
+              <a href="/preview/pr-1/equipments/">Equipments</a>
+            </li></ul>
+
+
+        
       </nav>
     </div>
   </div>
@@ -296,7 +317,7 @@
         
 
 
-<div class="page__footer-copyright">&copy; 2024 - 2025 <a href="https://ninjal-e3p.github.io">次世代言語科学研究センター</a>. Powered by <a href="https://jekyllrb.com" rel="nofollow">Jekyll</a> &amp; <a href="https://mademistakes.com/work/jekyll-themes/minimal-mistakes/" rel="nofollow">Minimal Mistakes</a>.</div>
+<div class="page__footer-copyright">&copy; 2024 - 2026 <a href="https://ninjal-e3p.github.io">次世代言語科学研究センター</a>. Powered by <a href="https://jekyllrb.com" rel="nofollow">Jekyll</a> &amp; <a href="https://mademistakes.com/work/jekyll-themes/minimal-mistakes/" rel="nofollow">Minimal Mistakes</a>.</div>
 
       </footer>
     </div>
