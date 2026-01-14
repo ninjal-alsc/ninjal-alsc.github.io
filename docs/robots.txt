@@ -1,1 +1,1 @@
-Sitemap: https://www2.ninjal.ac.jp/alsc/sitemap.xml
+Sitemap: https://github.com/pages/ninjal-alsc/sitemap.xml
