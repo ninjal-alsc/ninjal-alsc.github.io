@@ -154,26 +154,193 @@
   }
 }
 
-.page__content + .pagination,
-.page__meta + .pagination,
-.page__share + .pagination,
-.page__comments + .pagination {
+.page__content+.pagination,
+.page__meta+.pagination,
+.page__share+.pagination,
+.page__comments+.pagination {
   margin-top: 2em;
   padding-top: 2em;
   border-top: 1px solid $border-color;
 }
 
-/*
-     Priority plus navigation
-     ========================================================================== */
+// /*
+//      Priority plus navigation
+//      ========================================================================== */
 
-.greedy-nav {
+// .greedy-nav {
+//   position: relative;
+//   display: -webkit-box;
+//   display: -ms-flexbox;
+//   display: flex;
+//   -webkit-box-align: center;
+//   -ms-flex-align: center;
+//   align-items: center;
+//   min-height: $nav-height;
+//   background: $background-color;
+
+//   a {
+//     display: block;
+//     margin: 0 1rem;
+//     color: $masthead-link-color;
+//     text-decoration: none;
+//     -webkit-transition: none;
+//     transition: none;
+
+//     &:hover {
+//       color: $masthead-link-color-hover;
+//     }
+
+//     &.site-logo {
+//       margin-inline-start: 0;
+//       margin-inline-end: 0.5rem;
+//     }
+
+//     &.site-title {
+//       margin-inline-start: 0;
+//     }
+//   }
+
+//   img {
+//     -webkit-transition: none;
+//     transition: none;
+//   }
+
+//   &__toggle {
+//     -ms-flex-item-align: center;
+//     align-self: center;
+//     height: $nav-toggle-height;
+//     border: 0;
+//     outline: none;
+//     background-color: transparent;
+//     cursor: pointer;
+//   }
+
+//   .visible-links {
+//     display: -webkit-box;
+//     display: -ms-flexbox;
+//     display: flex;
+//     -webkit-box-pack: end;
+//     -ms-flex-pack: end;
+//     justify-content: flex-end;
+//     -webkit-box-flex: 1;
+//     -ms-flex: 1;
+//     flex: 1;
+//     overflow: hidden;
+
+//     li {
+//       -webkit-box-flex: 0;
+//       -ms-flex: none;
+//       flex: none;
+//     }
+
+//     a {
+//       position: relative;
+
+//       &:before {
+//         content: "";
+//         position: absolute;
+//         inset-inline-start: 0;
+//         bottom: 0;
+//         height: 4px;
+//         background: $primary-color;
+//         width: 100%;
+//         -webkit-transition: $global-transition;
+//         transition: $global-transition;
+//         -webkit-transform: scaleX(0) translate3d(0, 0, 0);
+//         transform: scaleX(0) translate3d(0, 0, 0); // hide
+//       }
+
+//       &:hover:before {
+//         -webkit-transform: scaleX(1);
+//         -ms-transform: scaleX(1);
+//         transform: scaleX(1); // reveal
+//       }
+//     }
+//   }
+
+//   .hidden-links {
+//     position: absolute;
+//     top: 100%;
+//     inset-inline-end: 0;
+//     margin-top: 15px;
+//     padding: 5px;
+//     border: 1px solid $border-color;
+//     border-radius: $border-radius;
+//     background: $background-color;
+//     -webkit-box-shadow: 0 2px 4px 0 rgba(#000, 0.16),
+//       0 2px 10px 0 rgba(#000, 0.12);
+//     box-shadow: 0 2px 4px 0 rgba(#000, 0.16), 0 2px 10px 0 rgba(#000, 0.12);
+
+//     &.hidden {
+//       display: none;
+//     }
+
+//     a {
+//       margin: 0;
+//       padding: 10px 20px;
+//       font-size: $type-size-5;
+
+//       &:hover {
+//         color: $masthead-link-color-hover;
+//         background: $navicon-link-color-hover;
+//       }
+//     }
+
+//     &::before {
+//       content: "";
+//       position: absolute;
+//       top: -11px;
+//       inset-inline-end: 10px;
+//       width: 0;
+//       border-style: solid;
+//       border-width: 0 10px 10px;
+//       border-color: $border-color transparent;
+//       display: block;
+//       z-index: 0;
+//     }
+
+//     &::after {
+//       content: "";
+//       position: absolute;
+//       top: -10px;
+//       inset-inline-end: 10px;
+//       width: 0;
+//       border-style: solid;
+//       border-width: 0 10px 10px;
+//       border-color: $background-color transparent;
+//       display: block;
+//       z-index: 1;
+//     }
+
+//     li {
+//       display: block;
+//       border-bottom: 1px solid $border-color;
+
+//       &:last-child {
+//         border-bottom: none;
+//       }
+//     }
+//   }
+// }
+
+// .no-js {
+//   .greedy-nav {
+//     .visible-links {
+//       -ms-flex-wrap: wrap;
+//       flex-wrap: wrap;
+//       overflow: visible;
+//     }
+//   }
+// }
+
+/* =========================
+   CSS-only navigation
+   (replaces greedy-nav)
+   ========================= */
+
+.css-nav {
   position: relative;
-  display: -webkit-box;
-  display: -ms-flexbox;
   display: flex;
-  -webkit-box-align: center;
-  -ms-flex-align: center;
   align-items: center;
   min-height: $nav-height;
   background: $background-color;
@@ -183,7 +350,6 @@
     margin: 0 1rem;
     color: $masthead-link-color;
     text-decoration: none;
-    -webkit-transition: none;
     transition: none;
 
     &:hover {
@@ -201,35 +367,20 @@
   }
 
   img {
-    -webkit-transition: none;
     transition: none;
   }
 
-  &__toggle {
-    -ms-flex-item-align: center;
-    align-self: center;
-    height: $nav-toggle-height;
-    border: 0;
-    outline: none;
-    background-color: transparent;
-    cursor: pointer;
-  }
+  /* =====================
+     visible links
+     ===================== */
 
   .visible-links {
-    display: -webkit-box;
-    display: -ms-flexbox;
     display: flex;
-    -webkit-box-pack: end;
-    -ms-flex-pack: end;
     justify-content: flex-end;
-    -webkit-box-flex: 1;
-    -ms-flex: 1;
     flex: 1;
     overflow: hidden;
 
     li {
-      -webkit-box-flex: 0;
-      -ms-flex: none;
       flex: none;
     }
 
@@ -244,21 +395,73 @@
         height: 4px;
         background: $primary-color;
         width: 100%;
-        -webkit-transition: $global-transition;
         transition: $global-transition;
-        -webkit-transform: scaleX(0) translate3d(0, 0, 0);
-        transform: scaleX(0) translate3d(0, 0, 0); // hide
+        transform: scaleX(0);
       }
 
       &:hover:before {
-        -webkit-transform: scaleX(1);
-        -ms-transform: scaleX(1);
-        transform: scaleX(1); // reveal
+        transform: scaleX(1);
       }
     }
   }
 
+  /* =====================
+     checkbox toggle
+     ===================== */
+
+  .nav-toggle {
+    display: none;
+  }
+
+  .nav-toggle-label {
+    align-self: center;
+    height: $nav-toggle-height;
+    border: 0;
+    background: transparent;
+    cursor: pointer;
+    display: none; // breakpoint で表示
+  }
+
+  .nav-overlay {
+  position: fixed;
+  inset: 0;
+  z-index: 10;
+
+  background: transparent;
+
+  opacity: 0;
+  visibility: hidden;
+  pointer-events: none;
+
+  -webkit-tap-highlight-color: transparent;
+  outline: none;
+
+  transition: opacity 0.2s ease;
+}
+
+.nav-toggle:checked ~ .nav-overlay {
+  opacity: 1;
+  visibility: visible;
+  pointer-events: auto;
+}
+
+  .nav-toggle:checked~.hidden-links {
+    opacity: 1;
+    visibility: visible;
+    pointer-events: auto;
+    transform: translateY(0);
+
+    transition:
+      opacity 0.2s ease,
+      transform 0.2s ease;
+  }
+
+  /* =====================
+     hidden (hamburger) menu
+     ===================== */
+
   .hidden-links {
+    z-index: 20;
     position: absolute;
     top: 100%;
     inset-inline-end: 0;
@@ -267,13 +470,21 @@
     border: 1px solid $border-color;
     border-radius: $border-radius;
     background: $background-color;
-    -webkit-box-shadow: 0 2px 4px 0 rgba(#000, 0.16),
-      0 2px 10px 0 rgba(#000, 0.12);
-    box-shadow: 0 2px 4px 0 rgba(#000, 0.16), 0 2px 10px 0 rgba(#000, 0.12);
+    box-shadow:
+      0 2px 4px rgba(#000, 0.16),
+      0 2px 10px rgba(#000, 0.12);
+    // display: none;
 
-    &.hidden {
-      display: none;
-    }
+    opacity: 0;
+    visibility: hidden;
+    pointer-events: none;
+    transform: translateY(-6px);
+
+    transition:
+      opacity 0.2s ease,
+      transform 0.2s ease,
+      visibility 0s linear 0.2s;
+
 
     a {
       margin: 0;
@@ -286,32 +497,6 @@
       }
     }
 
-    &::before {
-      content: "";
-      position: absolute;
-      top: -11px;
-      inset-inline-end: 10px;
-      width: 0;
-      border-style: solid;
-      border-width: 0 10px 10px;
-      border-color: $border-color transparent;
-      display: block;
-      z-index: 0;
-    }
-
-    &::after {
-      content: "";
-      position: absolute;
-      top: -10px;
-      inset-inline-end: 10px;
-      width: 0;
-      border-style: solid;
-      border-width: 0 10px 10px;
-      border-color: $background-color transparent;
-      display: block;
-      z-index: 1;
-    }
-
     li {
       display: block;
       border-bottom: 1px solid $border-color;
@@ -320,18 +505,133 @@
         border-bottom: none;
       }
     }
+
+    /* dropdown arrow */
+    &::before {
+      content: "";
+      position: absolute;
+      top: -11px;
+      inset-inline-end: 10px;
+      border-style: solid;
+      border-width: 0 10px 10px;
+      border-color: $border-color transparent;
+      z-index: 0;
+    }
+
+    &::after {
+      content: "";
+      position: absolute;
+      top: -10px;
+      inset-inline-end: 10px;
+      border-style: solid;
+      border-width: 0 10px 10px;
+      border-color: $background-color transparent;
+      z-index: 1;
+    }
+  }
+
+  /* checkbox ON → open menu */
+  .nav-toggle:checked+.nav-toggle-label+.hidden-links {
+    display: block;
   }
 }
 
-.no-js {
-  .greedy-nav {
-    .visible-links {
-      -ms-flex-wrap: wrap;
-      flex-wrap: wrap;
-      overflow: visible;
+/* =====================
+   breakpoints (決め打ち)
+   ===================== */
+
+
+@media (min-width: 860px) {
+  .css-nav {
+    .nav-toggle-label {
+      display: none;
+    }
+
+    .hidden-links {
+      display: none !important;
+    }
+
+    .visible-links>li {
+      display: inline-block;
     }
   }
 }
+
+@media (min-width: 685px) and (max-width: 859px) {
+  .css-nav {
+    .visible-links>li:nth-child(n+5) {
+      display: none;
+    }
+
+    .hidden-links>li:nth-child(-n+4) {
+      display: none;
+    }
+
+    .nav-toggle-label {
+      display: flex;
+    }
+  }
+}
+
+@media (min-width: 570px) and(max-width: 684px) {
+  .css-nav {
+
+    // visible links を3つまで表示
+    .visible-links>li:nth-child(n+4) {
+      display: none;
+    }
+
+    // 残りだけ hidden links に移動
+    .hidden-links>li:nth-child(-n+3) {
+      display: none;
+    }
+
+    .nav-toggle-label {
+      display: flex;
+    }
+  }
+}
+
+@media (min-width: 480px) and (max-width: 569px) {
+  .css-nav {
+
+    // visible links を2つまで表示
+    .visible-links>li:nth-child(n+3) {
+      display: none;
+    }
+
+    // 残りだけ hidden links に移動
+    .hidden-links>li:nth-child(-n+2) {
+      display: none;
+    }
+
+    .nav-toggle-label {
+      display: flex;
+    }
+  }
+}
+
+@media (max-width: 479px) {
+  .css-nav {
+
+    // visible links を0つまで表示
+    .visible-links>li:nth-child(n+1) {
+      display: none;
+    }
+
+    // 残りだけ hidden links に移動
+    .hidden-links>li:nth-child(-n) {
+      display: none;
+    }
+
+    .nav-toggle-label {
+      display: flex;
+    }
+  }
+}
+
+
+
 
 /*
      Navigation list
@@ -393,7 +693,7 @@
     }
 
     /* selected*/
-    input:checked + label {
+    input:checked+label {
       color: white;
       background-color: mix(white, #000, 20%);
 
@@ -410,7 +710,7 @@
       transform: rotate(90deg);
     }
 
-    input:checked + label:hover:after {
+    input:checked+label:hover:after {
       -webkit-transform: rotate(0);
       -ms-transform: rotate(0);
       transform: rotate(0);
@@ -465,10 +765,11 @@
 }
 
 @include breakpoint(max-width $large - 1px) {
-  .nav__list input:checked ~ .nav__items {
+  .nav__list input:checked~.nav__items {
     -webkit-transition: 0.5s ease-in-out;
     transition: 0.5s ease-in-out;
-    max-height: 9999px; /* exaggerate max-height to accommodate tall lists*/
+    max-height: 9999px;
+    /* exaggerate max-height to accommodate tall lists*/
     overflow: visible;
     opacity: 1;
     margin-top: 1em;
@@ -548,24 +849,24 @@
     }
   }
 
-  li ul > li a {
+  li ul>li a {
     padding-inline-start: 1.25rem;
     font-weight: normal;
   }
 
-  li ul li ul > li a {
+  li ul li ul>li a {
     padding-inline-start: 1.75rem;
   }
 
-  li ul li ul li ul > li a {
+  li ul li ul li ul>li a {
     padding-inline-start: 2.25rem;
   }
 
-  li ul li ul li ul li ul > li a {
+  li ul li ul li ul li ul>li a {
     padding-inline-start: 2.75rem;
   }
 
-  li ul li ul li ul li ul li ul > li a {
+  li ul li ul li ul li ul li ul>li a {
     padding-inline-start: 3.25rem;
   }
 }
