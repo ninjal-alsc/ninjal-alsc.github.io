@@ -47,12 +47,6 @@ var store = [{
         "url": "/preview/pr-1/events/2025-09-20-research-mtg-ud",
         "teaser": null
       },{
-        "title": "シンポジウム(仮)",
-        "excerpt":"シンポジウム   ","categories": [],
-        "tags": [],
-        "url": "/preview/pr-1/events/2026-03-20-symposium2026",
-        "teaser": null
-      },{
         "title": "新センターのウェブサイトを開設しました",
         "excerpt":"新センターのウェブサイトを開設しました  We launched the website for our new center.  ","categories": ["Blog"],
         "tags": [],
