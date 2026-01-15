@@ -1,1 +1,1 @@
-Sitemap: https://github.com/pages/ninjal-alsc/sitemap.xml
+Sitemap: /sitemap.xml
