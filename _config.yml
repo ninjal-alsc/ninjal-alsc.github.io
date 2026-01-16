@@ -351,13 +351,13 @@ collections_dir: collections
 collections:
   events:
     output: true
-    permalink: /events/:name
+    permalink: /events/:name/
   members:
     output: false
-    permalink: /:name
+    permalink: /:name/
   publications_papers:
     output: false
-    permalink: /:name
+    permalink: /:name/
   publications_books:
     output: false
-    permalink: /:name
+    permalink: /:name/
