@@ -1,0 +1,28 @@
+{%- assign c = include.collaboration -%}
+
+<li class="collaborative">
+
+  【{{ c.category }}】
+  {% if c.begin_year or c.end_year %}
+  <span class="period">
+    {% if c.begin_year %}
+      {% if c.begin_year == 2023 and c.begin_month == 4 %}
+        2023年度以前
+      {% else %}
+        {{ c.begin_year }}年{{ c.begin_month }}月
+      {% endif %}
+    {% endif %}
+    –
+    {% if c.end_year %}
+      {{ c.end_year }}年{{ c.end_month }}月
+    {% else %}
+      現在
+    {% endif %}
+  </span>
+  {% endif %}
+  {% if c.title != ""%}
+  <br><strong>{{ c.title }}</strong>
+  {% endif %}
+  <br>{{ c.collaborator }}
+
+</li>

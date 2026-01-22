@@ -1,0 +1,32 @@
+{%- assign a = include.award | default: include.publication | default: page -%}
+
+<li class="award">
+  <strong>{{ a.award_name }}</strong>
+  {% if a.links %}
+  [
+  {%- for link in a.links -%}
+  <a href="{{ link.url }}" target="_blank">{{ link.label }}</a>{% if forloop.last == false %}, {% endif %}
+  {%- endfor -%}
+  ]
+  {% endif %}
+  <br>From <i>{{ a.from }}</i>
+  
+  <ul>
+    {%- for target in a.to -%}
+    <li>
+      {%- if target.authors and target.authors.size > 0 -%}
+        {%- for author in target.authors -%}
+          {%- if forloop.first == false -%}
+            {%- if forloop.last -%} &amp; {% else %}, {% endif -%}
+          {%- endif -%}
+          {{ author }}
+        {%- endfor -%}
+        .
+      {%- endif -%}
+      {%- if target.title and target.title != "" -%}
+        <br><strong>{{ target.title }}</strong>
+      {%- endif -%}
+    </li>
+    {%- endfor -%}
+  </ul>
+</li>
