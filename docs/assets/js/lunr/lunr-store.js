@@ -89,12 +89,6 @@ var store = [{
         "url": "/alsc/news/workshop/",
         "teaser": null
       },{
-        "title": "次世代言語科学研究センターの公募への応募を検討している方へ",
-        "excerpt":"次世代言語科学研究センターの公募（准教授・テニュアトラック助教・特任助教）への応募を検討している方は、 言語資源活用ワークショップ2025、ELW2025等で積極的に研究発表を行ってください。  ","categories": ["Announcement"],
-        "tags": [],
-        "url": "/alsc/news/for-applicants/",
-        "teaser": null
-      },{
         "title": "『Universal Dependencies』 研究会を開催します",
         "excerpt":"『Universal Dependencies』 研究会を 2025/09/20 午後に実施します。   研究会ウェブページ  ","categories": ["Event"],
         "tags": [],
