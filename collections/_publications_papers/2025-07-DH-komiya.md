@@ -6,5 +6,6 @@ authors:
   - "Masayuki Asahara"
 proceedings_title: "Digital Humanities Conference 2025 (DH 2025)"
 year: 2025
+month: 7
 links:
 ---

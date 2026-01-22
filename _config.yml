@@ -354,10 +354,12 @@ collections:
     permalink: /events/:name/
   members:
     output: false
-    permalink: /:name/
   publications_papers:
     output: false
-    permalink: /:name/
+    sort_field: 
   publications_books:
     output: false
-    permalink: /:name/
+  publications_awards:
+    output: false
+  publications_collaborative_research:
+    output: false

@@ -10,6 +10,7 @@ authors:
   - "Sho Yokoi"
 proceedings_title: "The Thirteenth International Conference on Learning Representations (ICLR 2025)"
 year: 2025
+month: 4
 links:
   - label: "Paper"
     url: "https://openreview.net/forum?id=Q6PAnqYVpo"
