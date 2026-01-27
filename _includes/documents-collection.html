@@ -1,6 +1,6 @@
 {% assign entries = include.entries | default: site[include.collection]
   | where_exp: "post", "post.hidden != true"
-  | where_exp: "post", "post.date | date: '%Y%m%d' <= site.time | date: '%Y%m%d'" %}
+  | where_exp: "post", "post.date <= site.time" %}
 
 
 {% if include.sort_by %}
