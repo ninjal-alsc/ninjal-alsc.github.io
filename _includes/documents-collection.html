@@ -1,4 +1,7 @@
-{% assign entries = include.entries | default: site[include.collection] | where_exp: "post", "post.hidden != true"　| where_exp: "post", "post.date <= site.time" %}
+{% assign entries = include.entries | default: site[include.collection]
+  | where_exp: "post", "post.hidden != true"
+  | where_exp: "post", "post.date <= site.time" %}
+
 
 {% if include.sort_by %}
   {% assign entries = entries | sort: include.sort_by %}
