@@ -2,7 +2,7 @@
 title: "次世代言語科学研究センター 第2回研究会"
 date: 2026-01-27 # Date of announcement
 event_date: 2026-03-20 # Date of event
-excerpt: "Advanced Language Science (E3P) Research Center Research Meeting"
+excerpt: "Advanced Language Science (E3P) Research Center Research Meeting."
 header:
     teaser: /assets/img/e3p-event-20260320.png
 ---
@@ -20,8 +20,8 @@ header:
     - 14:45- トーク3 峯島宏次先生：TBA
     - 15:15- ＜休憩＞
     - 15:30- パネルディスカッション
-    		- テーマ1 「固い」規則は言語の理論に必要か？
-		- テーマ2 LLMの時代に合理主義的言語観はどう位置付けられるか？
+      - テーマ1 「固い」規則は言語の理論に必要か？
+      - テーマ2 LLMの時代に合理主義的言語観はどう位置付けられるか？
     - 16:30- 質疑応答
     - 16:50- クロージング
     - 17:00- 全体歓談会（講堂前で簡単な立食パーティー）
