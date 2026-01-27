@@ -1,6 +1,7 @@
-{% assign today = site.time | date: "%Y%m%d" %}
-{% assign entries = entries
-  | where_exp: "post", "post.date | date: '%Y%m%d' <= today" %}
+{% assign entries = include.entries | default: site[include.collection]
+  | where_exp: "post", "post.hidden != true"
+  | where_exp: "post", "post.date | date: '%Y%m%d' <= site.time | date: '%Y%m%d'" %}
+
 
 {% if include.sort_by %}
   {% assign entries = entries | sort: include.sort_by %}
