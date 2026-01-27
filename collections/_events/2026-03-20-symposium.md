@@ -1,6 +1,6 @@
 ---
 title: "次世代言語科学研究センター 第2回研究会"
-date: 2026-01-26 # Date of announcement
+date: 2026-03-20 # Date of announcement
 event_date: 2026-03-20 # Date of event
 excerpt: "Advanced Language Science (E3P) Research Center Research Meeting"
 header:
@@ -19,7 +19,7 @@ header:
     - 14:15- トーク2 小田博宗先生：言語理論の三つの妥当性と極小主義生成文法理論の三要因デザイン
     - 14:45- トーク3 峯島宏次先生：TBA
     - 15:15- ＜休憩＞
-    - 15:30- パネルディスカッション（伊藤たかね先生，小田博宗先生，峯島宏次先生，菅原朔先生，包含先生）
+    - 15:30- パネルディスカッション
     		- テーマ1 「固い」規則は言語の理論に必要か？
 		- テーマ2 LLMの時代に合理主義的言語観はどう位置付けられるか？
     - 16:30- 質疑応答
