@@ -1,6 +1,6 @@
 ---
 title: "次世代言語科学研究センター 第2回研究会"
-date: 2026-03-20 # Date of announcement
+date: 2026-01-27 # Date of announcement
 event_date: 2026-03-20 # Date of event
 excerpt: "Advanced Language Science (E3P) Research Center Research Meeting"
 header:
