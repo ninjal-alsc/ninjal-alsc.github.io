@@ -10,7 +10,7 @@ header:
 <img src="{{ '/assets/img/e3p-event-20260320.png' | relative_url }}" alt="次世代言語科学研究センター第2回研究会" style="max-width: 100%; height: auto;"/>
 
 - **日時**: 2026年3月20日 (金・祝)  13:00-17:00
-- **場所**:  国立国語研究所 2F 講堂  [交通案内](https://www.ninjal.ac.jp/utility/access/)
+- **場所**:  国立国語研究所 2F 講堂（[交通案内](https://www.ninjal.ac.jp/utility/access/)）とオンラインのハイブリッド
 - **参加費**:  無料（要 [参加申込](https://forms.office.com/Pages/ResponsePage.aspx?id=WgYfnQMt70Gf98AUO1nLLKs7x1rkygxHldd931NHyFdUQ0c5QjI4SDNXVTk0WTlDV1hYOUZDWjhQQS4u)）
 - **プログラム**: 
   - 13:15- センター長挨拶
