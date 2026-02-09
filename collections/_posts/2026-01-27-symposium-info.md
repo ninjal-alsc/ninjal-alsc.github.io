@@ -4,5 +4,5 @@ excerpt: "The call for participation in the Second Workshop is now open."
 category: Event
 ---
 
-[第2回研究会](https://www2.ninjal.ac.jp/alsc/events/2026-03-20-symposium/)の参加募集を開始しました  
+[第2回研究会]({{ '/events/2026-03-20-symposium' | relative_url }})の参加募集を開始しました  
 The call for participation in the Second Workshop is now open.
