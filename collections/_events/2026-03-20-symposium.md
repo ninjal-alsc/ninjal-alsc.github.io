@@ -12,10 +12,10 @@ header:
 ### 日時・場所・参加方法
 - **日時**：2026年3月20日（金・祝） 13:00–17:00
 - **場所**：国立国語研究所とオンラインのハイブリッド
-  - [国立国語研究所 交通案内](https://www.ninjal.ac.jp/utility/access/)）
+  - [国立国語研究所 交通案内](https://www.ninjal.ac.jp/utility/access/)
 - **参加登録**：要
-  - 現地参加のかたもオンライン参加のかたも、**2026-03-13(金)まで**にご登録ください
-  - [参加申込フォーム](https://forms.office.com/Pages/ResponsePage.aspx?id=WgYfnQMt70Gf98AUO1nLLKs7x1rkygxHldd931NHyFdUQ0c5QjI4SDNXVTk0WTlDV1hYOUZDWjhQQS4u)
+  - 現地参加のかたもオンライン参加のかたも、**2026-03-13(金)まで** に参加登録をお願いいたします
+  - [参加登録フォーム](https://forms.office.com/Pages/ResponsePage.aspx?id=WgYfnQMt70Gf98AUO1nLLKs7x1rkygxHldd931NHyFdUQ0c5QjI4SDNXVTk0WTlDV1hYOUZDWjhQQS4u)
 - **参加費**：無料
 
 ### 趣旨
