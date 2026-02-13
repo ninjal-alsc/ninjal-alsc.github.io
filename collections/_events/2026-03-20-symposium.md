@@ -4,7 +4,7 @@ date: 2026-01-27 # Date of announcement
 event_date: 2026-03-20 # Date of event
 excerpt: "Advanced Language Science (E3P) Research Center Research Meeting."
 header:
-    teaser: /assets/img/20260320-symposium-ogp.png # ogp
+  teaser: /assets/img/20260320-symposium-ogp.jpg # ogp
 ---
 
 <img src="{{ '/assets/img/20260320-symposium-banner.svg' | relative_url }}" alt="次世代言語科学研究センター第2回研究会「次世代の言語理論を考える」, 会場：国立国語研究所＆オンライン, 参加費無料, 要事前申込" style="max-width: 100%; height: auto; "/>
