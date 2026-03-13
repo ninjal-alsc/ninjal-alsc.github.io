@@ -24,7 +24,7 @@ header:
 
 ### 参加方法
 - **参加登録**：要
-  - 現地参加のかたもオンライン参加のかたも、**2026年3月13日（金）まで** に参加登録をお願いいたします。
+  - 現地参加のかたもオンライン参加のかたも、**2026年3月19日（木）23:59まで** に参加登録をお願いいたします。
   - [参加登録フォーム](https://forms.office.com/Pages/ResponsePage.aspx?id=WgYfnQMt70Gf98AUO1nLLKs7x1rkygxHldd931NHyFdUQ0c5QjI4SDNXVTk0WTlDV1hYOUZDWjhQQS4u)
 - **参加費**：無料
 - **アンチハラスメントポリシー**
