@@ -44,13 +44,13 @@ header:
 　　　　[[スライド](https://www2.ninjal.ac.jp/kubota/E3P-tutorial.pdf)]  
 13:40 🗣️ **講演1：言語学における記号主義 vs コネクショニズム**  
 　　　　伊藤たかね「『過去形論争』は、何だったのか？」  
-　　　　[[スライド](https://researchmap.jp/Takane_Ito/presentations/53305697)]
+　　　　[[スライド](https://researchmap.jp/Takane_Ito/presentations/53305697)]  
 14:10 ☕ 休憩  
 14:25 🗣️ **講演2：生成文法というプログラムの現在位置**  
 　　　　小田博宗「言語理論の三つの妥当性、三つのモジュール、三要因デザイン」  
 14:55 🗣️ **講演3：言語の意味の形式表現と論理**  
 　　　　峯島宏次「合成的意味論はどのように生き残るか」  
-　　　　[[スライド](https://abelard.flet.keio.ac.jp/person/minesima/slides/NINJAL2026-3-20.pdf)]
+　　　　[[スライド](https://abelard.flet.keio.ac.jp/person/minesima/slides/NINJAL2026-3-20.pdf)]  
 15:25 🗣️ **ミニチュートリアル2：言語モデル**  
 　　　　横井祥「言語モデルから言語について語る際に押さえておきたいこと」  
 　　　　[[スライド](https://speakerdeck.com/eumesy/before-talking-about-language-via-language-models)]  
