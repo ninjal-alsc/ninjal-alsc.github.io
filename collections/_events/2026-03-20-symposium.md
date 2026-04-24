@@ -44,6 +44,7 @@ header:
 　　　　[[スライド](https://www2.ninjal.ac.jp/kubota/E3P-tutorial.pdf)]  
 13:40 🗣️ **講演1：言語学における記号主義 vs コネクショニズム**  
 　　　　伊藤たかね「『過去形論争』は、何だったのか？」  
+　　　　[[スライド](https://researchmap.jp/Takane_Ito/presentations/53305697)]
 14:10 ☕ 休憩  
 14:25 🗣️ **講演2：生成文法というプログラムの現在位置**  
 　　　　小田博宗「言語理論の三つの妥当性、三つのモジュール、三要因デザイン」  
