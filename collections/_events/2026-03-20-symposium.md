@@ -50,6 +50,7 @@ header:
 　　　　小田博宗「言語理論の三つの妥当性、三つのモジュール、三要因デザイン」  
 14:55 🗣️ **講演3：言語の意味の形式表現と論理**  
 　　　　峯島宏次「合成的意味論はどのように生き残るか」  
+　　　　[[スライド](https://abelard.flet.keio.ac.jp/person/minesima/slides/NINJAL2026-3-20.pdf)]
 15:25 🗣️ **ミニチュートリアル2：言語モデル**  
 　　　　横井祥「言語モデルから言語について語る際に押さえておきたいこと」  
 　　　　[[スライド](https://speakerdeck.com/eumesy/before-talking-about-language-via-language-models)]  
