@@ -9,5 +9,5 @@ year: 2026
 month: 6
 links:
   - label: "doi"
-    url: ""
+    url: "https://doi.org/10.5715/jnlp.33.920"
 ---
