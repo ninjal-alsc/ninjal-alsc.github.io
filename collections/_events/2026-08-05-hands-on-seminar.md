@@ -1,6 +1,6 @@
 ---
 title: "2026年度第1回ハンズオンセミナー"
-date: 2026-08-05 # Date of announcement
+date: 2026-06-25 # Date of announcement
 event_date: 2026-08-05 # Date of event
 excerpt: "眼球運動計測技術ハンズオンセミナー"
 ---
