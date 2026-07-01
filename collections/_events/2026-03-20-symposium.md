@@ -49,8 +49,8 @@ header:
 　　　　[[スライド](https://researchmap.jp/Takane_Ito/presentations/53305697), [動画](https://youtu.be/XI9IFgSeKlA?si=IkridngPOlwvxcmT)]  
 14:10 ☕ 休憩  
 14:25 🗣️ **講演2：生成文法というプログラムの現在位置**  
-　　　　小田博宗「言語理論の三つの妥当性、三つのモジュール、三要因デザイン」 
-　　　　[[動画](https://youtu.be/Ga73axSF19k?si=OarhuMzXGYOQlIjC)]
+　　　　小田博宗「言語理論の三つの妥当性、三つのモジュール、三要因デザイン」  
+　　　　[[動画](https://youtu.be/Ga73axSF19k?si=OarhuMzXGYOQlIjC)]  
 14:55 🗣️ **講演3：言語の意味の形式表現と論理**  
 　　　　峯島宏次「合成的意味論はどのように生き残るか」  
 　　　　[[スライド](https://abelard.flet.keio.ac.jp/person/minesima/slides/NINJAL2026-3-20.pdf), [動画](https://youtu.be/Hlu8vNcMqQk?si=bm5goe-diTpKFBJz)]  
