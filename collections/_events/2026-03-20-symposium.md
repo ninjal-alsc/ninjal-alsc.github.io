@@ -9,7 +9,7 @@ header:
 
 <img src="{{ '/assets/img/20260320-symposium-banner.svg' | relative_url }}" alt="次世代言語科学研究センター第2回研究会「次世代の言語理論を考える」, 国立国語研究所＆Web開催, 参加無料, 要事前申込" style="max-width: 100%; height: auto; "/>
 
-<font color="red">2026-07-01更新：講演・チュートリアルの[動画](https://www.youtube.com/playlist?list=PLZfZgVvFbh1Y4BuEKTwZa-PQEfFxaPuui)をアップしました。</font>
+2026-07-01更新：講演・チュートリアルの[動画](https://www.youtube.com/playlist?list=PLZfZgVvFbh1Y4BuEKTwZa-PQEfFxaPuui)をアップしました。
 
 ### 趣旨
 国立国語研究所・次世代言語科学研究センターは、言語学と自然言語処理の協働を目的のひとつに発足しました。メンバーの間では、分野を越えた相互理解と学際的研究のため、日々愉しい議論がおこなわれています。今回の研究会で、この輪をさらに広げたいと思っています。
@@ -50,7 +50,7 @@ header:
 14:10 ☕ 休憩  
 14:25 🗣️ **講演2：生成文法というプログラムの現在位置**  
 　　　　小田博宗「言語理論の三つの妥当性、三つのモジュール、三要因デザイン」 
-      [[動画](https://youtu.be/Ga73axSF19k?si=OarhuMzXGYOQlIjC)]
+　　　　[[動画](https://youtu.be/Ga73axSF19k?si=OarhuMzXGYOQlIjC)]
 14:55 🗣️ **講演3：言語の意味の形式表現と論理**  
 　　　　峯島宏次「合成的意味論はどのように生き残るか」  
 　　　　[[スライド](https://abelard.flet.keio.ac.jp/person/minesima/slides/NINJAL2026-3-20.pdf), [動画](https://youtu.be/Hlu8vNcMqQk?si=bm5goe-diTpKFBJz)]  
