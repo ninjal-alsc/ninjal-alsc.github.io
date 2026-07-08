@@ -7,7 +7,7 @@ proceedings_title: "The Ninth Workshop on Universal Dependencies"
 year: 2026
 month: 5
 links:
-  - label: "pdf"
-    url: "http://www.lrec-conf.org/proceedings/lrec2026/workshops/udw/2026.udw-1.0.pdf"
+  - label: "doi"
+    url: "https://doi.org/10.63317/2n8gkp49p3wg"
 ---
 
