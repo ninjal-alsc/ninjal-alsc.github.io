@@ -12,7 +12,7 @@ proceedings_title: "Fourth Workshop on Language Technologies for Historical and 
 year: 2026
 month: 5
 links:
-  - label: "pdf"
-    url: "http://lrec-conf.org/proceedings/lrec2026/workshops/lt4hala/2026.lt4hala-1.0.pdf"
+  - label: "doi"
+    url: "https://doi.org/10.63317/2ptf9cfgpkgz"
 ---
 
